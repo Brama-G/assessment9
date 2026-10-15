@@ -1,3 +1,3 @@
-FROM nginx:this-tag-does-not-exist
+FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 80
